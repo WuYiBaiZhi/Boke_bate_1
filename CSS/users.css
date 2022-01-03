@@ -1,0 +1,106 @@
+/* 背景局部虚化 */
+body {
+	background: url("../IMG/ID紫罗兰.jpg") no-repeat;
+}
+body::after {
+	content: "";
+	background: url("../IMG/ID紫罗兰.jpg") no-repeat;
+	background-position: -30vw -35vh;
+	position: absolute;
+	width: 40vw;
+	height: 30vh;
+	left: 50vw;
+	top: 50vh;
+	margin-top: -15vh;
+	margin-left: -20vw;
+	filter: blur(5px);
+	z-index: 10;
+	box-shadow: 15px 15px 10px;
+	border-radius: 7px;
+
+}
+/* 输入框等 */
+.pic {
+	width: 40vw;
+	height: 30vh;
+	position: absolute;
+	left: 50vw;
+	top: 50vh;
+	z-index: 20;
+	margin-top: -15vh;
+	margin-left: -20vw;
+	border: 1px solid #000;
+	border-radius: 7px;
+}
+.pic input {
+	outline: none; /*去除默认样式*/
+	padding: 5px;
+	background-color: rgba(189, 189, 189, 0.507);
+	margin-top: 2vh;
+	position: relative;
+	border-radius: 7px;
+	border:none;
+	left: 5vw;
+	top: 10px;
+	width: 30vw;
+	height: 3vh;
+	box-shadow: 5px 5px 15px;
+}
+/* 调整提示文字 */
+.pic input::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 0.603);
+}
+.on {
+	margin-top: 1vh;
+	margin-left: 4px;
+}
+.on:hover {
+	color: orange;
+	background-color: rgba(230, 230, 230, 0.603);
+}
+.a {
+	position: absolute;
+	margin-top: 20px;
+	right: 10px;
+}
+.a a {
+	margin-left: 20px;
+	color:rgba(112, 112, 112, 0.664);
+	text-decoration: none;
+}
+.a a:hover {
+	color: orange;
+}
+/* 导航栏 */
+
+.top {
+	width: 100vw;
+	position: absolute;
+	text-align: center;
+	top: 20px;
+}
+.top a {
+	padding-left: 40px;
+	font-size: 20px;
+	text-decoration: none;
+	color:#000000;
+}
+.top a:hover {
+	color:#F4B8B9;
+}
+.mohu {
+	position: absolute;
+	width: 100vw;
+	height: 40px;
+}
+.mohu::after {
+	content: "";
+	position: absolute;
+	background: url(../IMG/ID紫罗兰.jpg);
+	filter: blur(5px);
+	width: 100vw;
+	height: 60px;
+}
+.in {
+	color: #F4B8B9;
+}

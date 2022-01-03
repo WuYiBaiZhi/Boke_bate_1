@@ -1,0 +1,155 @@
+html {
+	background: linear-gradient(100deg,rgb(233, 231, 128),rgb(236, 186, 93),rgb(235, 114, 44));
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+header {
+	background: url(../IMG/89h538818p2.jpg) no-repeat;
+	background-size: 100vw;
+	background-position: 0 -10vw;
+	padding-bottom: 60px;
+}
+.Logo {
+	position: absolute;
+	width: 64px;
+	top: 10px;
+	right: 20px;
+	background: #CCC;
+	border-radius: 50%;
+	float: right;
+}
+.Logo:hover {
+	width: 70px;
+	top:7px;
+	right: 17px;
+	background: rgb(234, 170, 236);
+}
+.head_01 {
+	margin-top: 0px;
+	padding-top: 64px;
+	text-align: center;
+}
+.time {
+	text-align: center;
+}
+.top a {
+	padding-left: 40px;
+	text-decoration: none;
+	color:#000000;
+}
+.top a:hover {
+	color:#F4B8B9;
+}
+.clear {
+	clear: both;
+}
+.top {
+	margin-top: 30px;
+	margin-left: -40px;
+	font-size: 20px;
+	text-align: center;
+	
+}
+.ss_box {
+	position: absolute;
+	top: 192px;
+	right: 10px;
+}
+.sst {
+	margin-top: 5px;
+	height: 30px;
+	width: 150px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: none;
+	outline: none;
+}
+.sst:focus {
+	height: 30px;
+	width: 180px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: none;
+}
+.sst_t {
+	margin-top: 5px;
+	height: 30px;
+	width: 50px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: none;
+	outline: none;
+}
+.sst_t:hover {
+	background: rgba(66, 109, 238, 0.411);
+}
+.in {
+	color: #F4B8B9;
+}
+.img_box {
+    margin: auto;
+    width: 700px;
+    background-color: rgba(199, 198, 198, 0.226);
+}
+.img_box1 img,.img_box2 img {
+	box-shadow: 15px 15px 10px rgb(0, 0, 0);
+	border-radius: 15px;
+	margin-top: 80px;
+    width: 500px;
+}
+.img_box1 img:hover,.img_box2 img:hover {
+	box-shadow:15px 15px 10px #081692 ;
+}
+.img_box1 img,.img_box1 p {
+	float: left;
+}
+.img_box2 img,.img_box2 p {
+	float: right;
+}
+.img_box1 p,.img_box2 p {
+	margin-top: 220px;
+	background-color: rgb(235, 114, 44);
+	border-radius: 15px 30px 20px;
+}
+.img_box1 p {
+	padding: 20px;
+	margin-left: 20px;
+}
+.img_box2 p {
+	padding: 20px;
+	margin-right: 20px;
+}
+/* 页脚 */
+footer {
+	position: relative;
+	top: 60px;
+}
+.footer_box {
+	width: 100vw;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.footer_box ul {
+	width: 300px;
+}
+.footer_box a {
+	text-decoration: none;
+	color: #000;
+}
+.footer_box a:hover {
+	color: blue;
+}
+.footer_p {
+	width: 20vw;
+	float: left;
+}
+.foot {
+	text-align: center;
+}
+.foot a {
+	text-decoration: none;
+	color: #000;
+}
+.foot a:hover {
+	color: blue;
+}
