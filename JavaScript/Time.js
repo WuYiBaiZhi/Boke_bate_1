@@ -3,7 +3,7 @@
 //2022倒计时
 setInterval (function() {
 	var now = new Date()
-	var nix = new Date(2022,0,1,0,0,0)
+	var nix = new Date(2024,0,1,0,0,0)
 	var Now_times = (nix - now) / 1000
 	var day = Math.trunc(Now_times / (60*60*24))
 	var hor = Math.trunc(Now_times % (60*60*24) / (60*60))
