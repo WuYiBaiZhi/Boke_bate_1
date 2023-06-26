@@ -12,5 +12,5 @@ setInterval (function() {
 	time_list = {day:day,hor:hor,min:min,set:set}
 	console.log(time_list)
 	var time_text = document.querySelector(".time")
-	time_text.innerHTML = "距离2022年还差 " + day + "天" + hor + "小时" + min + "分钟" + set + "秒"
+	time_text.innerHTML = "距离2024年还差 " + day + "天" + hor + "小时" + min + "分钟" + set + "秒"
 },1000)
