@@ -1,0 +1,165 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+html {
+	background: linear-gradient(100deg,rgb(209, 134, 132),rgb(240, 175, 175),rgb(241, 142, 97));
+}
+header {
+	background: url(../IMG/20210217121142_c4d66.jpeg) no-repeat;
+	background-size: 100vw;
+	background-position: 0 -20vw;
+	padding-bottom: 60px;
+}
+.Logo {
+	position: absolute;
+	width: 64px;
+	top: 10px;
+	right: 20px;
+	background: #CCC;
+	border-radius: 50%;
+	float: right;
+}
+.Logo:hover {
+	width: 70px;
+	top:7px;
+	right: 17px;
+	background: rgb(234, 170, 236);
+}
+.head_01 {
+	margin-top: 0px;
+	padding-top: 64px;
+	text-align: center;
+}
+.time {
+	text-align: center;
+}
+.top a {
+	padding-left: 40px;
+	text-decoration: none;
+	color:#000000;
+}
+.top a:hover {
+	color:#F4B8B9;
+}
+.clear {
+	clear: both;
+}
+.top {
+	margin-top: 30px;
+	margin-left: -40px;
+	font-size: 20px;
+	text-align: center;
+	
+}
+.userInputMessageBox {
+	box-shadow: #0000007f -10px 13px 9px;
+	margin: auto;
+	margin-top: 37px;
+	width: 80vw;
+	max-width: 900px;
+	border-radius: 13px;
+	background-color: #cccccc4c;
+	text-align: center;
+
+}
+.userInputMessageBox > form {
+	margin-top: 20px;
+	margin: 20px;
+}
+.userInputMessageBox > form > input:first-child {
+	border-radius: 7px;
+	text-align: center;
+	width: 73%;
+	max-width: 90%;
+	height: 30px;
+	border: #ccccccff;
+	margin-top: 30px;
+	background-color: #cccccc7c;
+}
+.userInputMessageBox > form > input:first-child:focus {
+	box-shadow: #0000007f -10px 13px 9px;
+	outline: none;
+}
+.userInputMessageBox > form > textarea {
+	padding: 13px;
+	border-radius: 7px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 70%;
+	max-width: 90%;
+	min-width: 50%;
+	font-size: 17px;
+	background-color: #cccccc7c;
+}
+.userInputMessageBox > form > textarea:focus {
+	box-shadow: #0000007f -10px 13px 9px;
+	outline: none;
+}
+.userInputMessageBox > form > #upDataMessage {
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+.userInputMessageBox > form > input[type="reset"], #upDataMessage {
+	width: 70px;
+	height: 27px;
+	border-radius: 7px;
+	border: #ccccccff;
+	background-color: #cccccc4c;
+	box-shadow: #0000007f -5px 7px 13px;
+}
+.userInputMessageBox > form > input[type="reset"]:active, #upDataMessage:active {
+	background-color: #cccccc00;
+}
+.messagesBox {
+	box-shadow: #0000007f -10px 13px 9px;
+	border-radius: 13px;
+	margin: auto;
+	margin-top: 50px;
+	width: 80vw;
+	max-width: 900px;
+	background-color: #cccccc4c;
+}
+.messageBox > img {
+	width: 50px;
+	position: relative;
+	top: -25px;
+	left: 3vw;
+	border-radius: 13px;
+	border: #e1595b solid 2px;
+	text-align: left;
+	box-shadow: #0000007f -3px 5px 5px;
+	
+}
+.messageHeader {
+	width: 100%;
+	border-radius: 13px;
+	position: relative;
+	top: -65px;
+}
+.messageHeader > .user > a{
+	color: #000000;
+	text-decoration: none;
+	float: left;
+	margin-left: 130px;
+}
+.messageHeader > .user > a:hover {
+	color: rgb(207, 138, 8);
+}
+.messageHeader .messageTime {
+	float: right;
+	margin-right: 77px;
+}
+.messgeText {
+	position: relative;
+	top: -27px;
+	padding: 5px 20px;
+}
+.messgeText > p {
+	text-indent: 2em;
+}
+
+
+footer {
+	margin-top: 30px;
+}
