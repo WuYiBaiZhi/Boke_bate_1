@@ -3,6 +3,7 @@ window.onload = function() {
     var upDataButton = document.getElementById("upDataMessage");
     upDataButton.onclick = upData;
     function upData () {
+        // 获取或创建元素
         var inputUserName = document.getElementById("inputUserName");
         var inputMessage = document.getElementById("inputMessage");
         var messagesBox = document.createElement("div");
@@ -16,6 +17,7 @@ window.onload = function() {
         var timeSpan = document.createElement("span");
         var messgeText = document.createElement("div");
         
+        //添加参数
         img.src = "../IMG/baizhi.ico";
         img.alt = "userImg"
         messagesBox.className = "messagesBox";
@@ -36,7 +38,7 @@ window.onload = function() {
         p.innerHTML = inputMessage.value;
         inputMessage.value = "";
     
-        
+        // 添加到页面中
         messageBox.appendChild(img);
         userP.appendChild(userLink);
         messageHead.appendChild(userP);
