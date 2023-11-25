@@ -16,7 +16,7 @@ window.onload = function() {
         var p = document.createElement("p");
         var timeSpan = document.createElement("span");
         var messgeText = document.createElement("div");
-        
+        var now_time = new Date();
         //添加参数
         img.src = "../IMG/baizhi.ico";
         img.alt = "userImg"
@@ -31,10 +31,10 @@ window.onload = function() {
         } else {
             userLink.text = "匿名用户";
         }
-        inputUserName.value = ""
         timeSpan.className = "messageTime";
         messgeText.className = "messgeText";
-        timeSpan.innerHTML = 121;
+        console.log(now_time.getTime);
+        timeSpan.innerHTML = now_time.getFullYear() + "年" + now_time.getMonth() + "月" + now_time.getDate() + "日 " + now_time.getHours() + ":" + now_time.getMinutes() ;
         p.innerHTML = inputMessage.value;
         inputMessage.value = "";
     
