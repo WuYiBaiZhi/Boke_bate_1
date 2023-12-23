@@ -157,6 +157,7 @@ header {
 }
 .messgeText > p {
 	text-indent: 2em;
+	line-height: 27px;
 }
 footer {
 	margin-top: 30px;
