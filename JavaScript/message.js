@@ -26,17 +26,15 @@ window.onload = function() {
     }
     function initData (userName, userImg, userLinkText, messageTime, messageText) {
         // 获取或创建元素
-        var messagesBox = document.createElement("div");
-        var messageBox = document.createElement("div");
-        var img = document.createElement("img");
-        var messageHead = document.createElement("div");
-        var userP = document.createElement("p");
-        var userLink = document.createElement("a");
-        var footer = document.createElement("footer");
-        var p = document.createElement("p");
-        var timeSpan = document.createElement("span");
-        var messgeText = document.createElement("div");
-        var now_time = new Date();
+        let messagesBox = document.createElement("div");
+        let messageBox = document.createElement("div");
+        let img = document.createElement("img");
+        let messageHead = document.createElement("div");
+        let userP = document.createElement("p");
+        let userLink = document.createElement("a");
+        let footer = document.createElement("footer");
+        let timeSpan = document.createElement("span");
+        let messgeText = document.createElement("div");
         //添加参数
         if(userName != '') {
             userLink.text = userName;
@@ -55,8 +53,7 @@ window.onload = function() {
         messgeText.className = "messgeText";
         // console.log(now_time.getTime);
         timeSpan.innerHTML = messageTime;
-        TextNode = document.createTextNode(messageText);
-        p.appendChild(TextNode);
+        
     
         // 添加到页面中
         messageBox.appendChild(img);
@@ -64,7 +61,12 @@ window.onload = function() {
         messageHead.appendChild(userP);
         messageHead.appendChild(timeSpan);
         messageBox.appendChild(messageHead);
-        messgeText.appendChild(p);
+        for(let i = 0;i < messageText.length; i++) {
+            let p = document.createElement("p");
+            TextNode = document.createTextNode(messageText[i]);
+            p.appendChild(TextNode);
+            messgeText.appendChild(p);
+        }
         messageBox.appendChild(messgeText);
         messagesBox.appendChild(messageBox);
         content.appendChild(messagesBox);
@@ -72,19 +74,19 @@ window.onload = function() {
     }
     function upData () {
         // 获取或创建元素
-        var inputUserName = document.getElementById("inputUserName");
-        var inputMessage = document.getElementById("inputMessage");
-        var messagesBox = document.createElement("div");
-        var messageBox = document.createElement("div");
-        var img = document.createElement("img");
-        var messageHead = document.createElement("div");
-        var userP = document.createElement("p");
-        var userLink = document.createElement("a");
-        var footer = document.createElement("footer");
-        var p = document.createElement("p");
-        var timeSpan = document.createElement("span");
-        var messgeText = document.createElement("div");
-        var now_time = new Date();
+        let inputUserName = document.getElementById("inputUserName");
+        let inputMessage = document.getElementById("inputMessage");
+        let messagesBox = document.createElement("div");
+        let messageBox = document.createElement("div");
+        let img = document.createElement("img");
+        let messageHead = document.createElement("div");
+        let userP = document.createElement("p");
+        let userLink = document.createElement("a");
+        let footer = document.createElement("footer");
+        let p = document.createElement("p");
+        let timeSpan = document.createElement("span");
+        let messgeText = document.createElement("div");
+        let now_time = new Date();
         //添加参数
         img.src = "../IMG/baizhi.ico";
         img.alt = "userImg"
