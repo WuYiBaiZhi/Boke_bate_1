@@ -2,7 +2,7 @@ window.onload = function() {
     var content = document.getElementById("content");
     var upDataButton = document.getElementById("upDataMessage");
     upDataButton.onclick = upData;
-    let url = "../JavaScript/message.json";
+    let url = "http://wuyibaizhi.com/d/AlistDisk/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/UserDisk/%E6%97%A0%E6%84%8F%E7%99%BD%E7%BA%B8/Data/message.json";
     let request = new XMLHttpRequest();
     request.open("get",url);
     request.send(null);

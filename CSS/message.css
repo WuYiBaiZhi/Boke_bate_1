@@ -11,6 +11,9 @@ header {
 	background-position: 0 -20vw;
 	padding-bottom: 60px;
 }
+.in {
+	color: #F4B8B9;
+}
 .Logo {
 	position: absolute;
 	width: 64px;

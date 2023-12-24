@@ -4,24 +4,6 @@ html {
 	background-size: cover;
 	height: 100vh;
 }
-html::after {
-	content: "";
-	background: url("../IMG/ID紫罗兰.jpg") no-repeat;
-	background-size: 100vw 100vh;
-	height: 100%;
-	position: absolute;
-	width: 40vw;
-	height: 30vh;
-	left: 50vw;
-	top: 50vh;
-	margin-top: -15vh;
-	margin-left: -20vw;
-	filter: blur(5px);
-	z-index: 10;
-	box-shadow: 15px 15px 10px;
-	border-radius: 7px;
-
-}
 /* 输入框等 */
 .pic {
 	width: 40vw;
@@ -33,6 +15,7 @@ html::after {
 	margin-top: -15vh;
 	margin-left: -20vw;
 	border: 1px solid #000;
+	background-color: #e1e1e17e;
 	border-radius: 7px;
 }
 .pic input {
@@ -92,17 +75,8 @@ html::after {
 	color:#F4B8B9;
 }
 .mohu {
+	background-color: #e1e1e17e;
 	position: absolute;
-	width: 100vw;
-	height: 60px;
-}
-.mohu::after {
-	content: "";
-	position: absolute;
-	background: url(../IMG/ID紫罗兰.jpg) no-repeat;
-	background-position: 0 -40px;
-	background-size: cover;
-	/* filter: blur(5px); */
 	width: 100vw;
 	height: 60px;
 }
