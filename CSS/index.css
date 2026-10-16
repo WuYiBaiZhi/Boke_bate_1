@@ -115,9 +115,9 @@ header {
 	100%{margin-left: 0;}
 }
 /* 动态 */
-.New_log_boxx {
+.New_log_box {
 	position: relative;
-	top: 50;
+	top: 50px;
 }
 .New_log_box {
 	margin-top: 20px;
