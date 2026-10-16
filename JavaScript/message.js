@@ -104,7 +104,7 @@ window.onload = function() {
         timeSpan.className = "messageTime";
         messgeText.className = "messgeText";
         console.log(now_time.getTime);
-        timeSpan.innerHTML = now_time.getFullYear() + "年" + now_time.getMonth() + "月" + now_time.getDate() + "日 " + now_time.getHours() + ":" + now_time.getMinutes() ;
+        timeSpan.innerHTML = now_time.getFullYear() + "年" + (now_time.getMonth() + 1)+ "月" + now_time.getDate() + "日 " + now_time.getHours() + ":" + now_time.getMinutes() ;
         p.innerHTML = inputMessage.value;
         inputMessage.value = "";
     
